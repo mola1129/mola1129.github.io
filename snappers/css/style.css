@@ -36,12 +36,12 @@ a:hover {
 }
 
 header {
-  width: 960px;
+  width: 1060px;
   height: 100px;
   margin: 0 auto;
 }
 
-.liama {
+.manbou {
   float: left;
   margin-top: 50px;
 }
@@ -74,7 +74,7 @@ header {
 }
 
 .content {
-  width: 960px;
+  width: 1060px;
   margin: 0 auto;
 }
 
@@ -86,4 +86,55 @@ footer {
 
 footer small {
   font-size: 12px;
+}
+
+#index h1 {
+  font-size: 100px;
+  line-height: 1;
+  color: #ffffff;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  margin-bottom: 50px;
+}
+
+#index .content {
+  margin-top: 150px;
+}
+
+#index p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.btn a {
+  background-color: #009cd3;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Coiny', cursive;
+  width: 185px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #009cd3;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #009cd3;
+}
+
+#index footer {
+  width: 1060px;
+  margin: 150px auto 0 auto;
+  text-align: left;
+}
+
+#index {
+  background-image: url(../images/pureryDog.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
