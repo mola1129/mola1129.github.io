@@ -227,7 +227,7 @@ footer {
   margin-top: 0;
   padding: 0;
 }
- 
+
 #portfolio {
   background-image: url(../images/tomato.jpg);
   background-repeat: no-repeat;
@@ -264,4 +264,30 @@ a img:hover {
 
 .sidebar ul a {
   color: #333333;
+}
+
+#photograph {
+  background-image: url(../images/asika.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#photograph .photograph-list li {
+  float: left;
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+
+#photograph .photograph-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#video {
+  background-image: url(../images/turtle.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
 }
